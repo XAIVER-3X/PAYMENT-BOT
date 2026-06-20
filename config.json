@@ -1,0 +1,295 @@
+{
+  "bot_token": "8929604194:AAHU-F8z21-IR93L8d_rYx9QWsyZkoJKWiE",
+  "owner_id": 8650066383,
+  "preview_channel_id": -1003893166247,
+  "max_key_attempts": 3,
+  "support_cooldown_seconds": 600,
+  "approve_db_path": "/root/approve_bot/access.db",
+  "images": {
+    "welcome": "start_new.png",
+    "menu": "menu.jpg",
+    "support": "vip_support.jpg",
+    "start": "start_new.png"
+  },
+  "pay_links": {
+    "30": "https://www.google.com/aclk?sa=L&ai=DChsSEwiU_NSl4qKUAxWLk1AGHXEHFgAYACICCAEQJRoCZGc&co=1&sph=&cce=1&sig=AOD64_3MZEkYKt0q3LzZ6-uyxqTrG4356Q&ctype=5&q=&ved=2ahUKEwjjsNCl4qKUAxU6QkEAHTS9JkQQwg8oAHoECAoQDQ&adurl=",
+    "40": "https://www.google.com/aclk?sa=L&ai=DChsSEwjDxIOqxvqUAxUDmlAGHeZvGu0YACICCAEQERoCZGc&co=1&sph=&cce=1&sig=AOD64_3Gc175N6vpZVpJEoRb4kJnt5fywQ&ctype=5&q=&ved=2ahUKEwityv6pxvqUAxUNXUEAHZZxALoQwg8oAHoECAkQJQ&adurl=",
+    "45": "https://www.google.com/aclk?sa=L&ai=DChsSEwjDxIOqxvqUAxUDmlAGHeZvGu0YACICCAEQFRoCZGc&co=1&sph=&cce=1&sig=AOD64_13jLuKj5x9pejqlCn4y8FnDgbyog&ctype=5&q=&ved=2ahUKEwityv6pxvqUAxUNXUEAHZZxALoQwg8oAHoECAkQEw&adurl=",
+    "60": "https://www.google.com/aclk?sa=L&ai=DChsSEwin6vKJ4qKUAxWakVAGHSZKNhcYACICCAEQLRoCZGc&co=1&sph=&cce=1&sig=AOD64_3kMRL0hTctMtcqRV891k7hJcWb8Q&ctype=5&q=&ved=2ahUKEwjo6-2J4qKUAxVAXUEAHfbLHHkQwg8oAHoECAgQDQ&adurl=",
+    "80": "www.google.com/aclk?sa=L&ai=DChsSEwjo0_GBxvqUAxUJpFAGHeO8MCYYACICCAEQHxoCZGc&co=1&sph=&cce=1&sig=AOD64_2-TtO3s18PJWXNshL2xPf6zrgM1Q&ctype=5&q=&ved=2ahUKEwiE6eyBxvqUAxXlRUEAHairFXUQwg8oAHoECAwQDQ&adurl=",
+    "120": "www.g2a.com/paypal-gift-card-120-gbp-by-rewarble-united-kingdom-i10000339995284?___currency=GBP&___language=en&er=fbad5356eadcb5504cd05805131c74b7324121dc361ede2b6517f80a5927efccc3009cdf164b0ec9185ccc5075e231a3&uuid=5f087297-a754-45c5-b6d9-d0d42f2a2b5e&adid=GA-GB_PEB_ON_CTG_PMAX_FULL_NonGaming-Others&id=47&utm_medium=cpc&utm_source=google&utm_campaign=GA-GB_PEB_ON_CTG_PMAX_FULL_NonGaming-Others&utm_id=23236232069&gclsrc=aw.ds&gad_source=1&gad_campaignid=23240536024&gbraid=0AAAAADqf3lG50HJ15PoTGUYHxFGdQI8DA"
+  },
+  "girls_list": [
+    "26Hadjar",
+    "AlishaM4",
+    "Eshaa",
+    "Fatima",
+    "Haja",
+    "Hiba",
+    "Laiba Ali",
+    "Leemz",
+    "Lush",
+    "Queen",
+    "Rabaul",
+    "Rakhee",
+    "Reallarii",
+    "Sajida",
+    "Samira",
+    "Sara Iqbal",
+    "Shivani",
+    "Simran",
+    "Tamxbegumx",
+    "Taqdees",
+    "xneeca"
+  ],
+  "vip_tiers": {
+    "permanent": {
+      "label": "📍 DesiThotify Locations (16 GCs)",
+      "btn": "📍 DesiThotify Locations (16 GCs)",
+      "price": 120,
+      "link": "www.g2a.com/paypal-gift-card-120-gbp-by-rewarble-united-kingdom-i10000339995284?___currency=GBP&___language=en&er=fbad5356eadcb5504cd05805131c74b7324121dc361ede2b6517f80a5927efccc3009cdf164b0ec9185ccc5075e231a3&uuid=5f087297-a754-45c5-b6d9-d0d42f2a2b5e&adid=GA-GB_PEB_ON_CTG_PMAX_FULL_NonGaming-Others&id=47&utm_medium=cpc&utm_source=google&utm_campaign=GA-GB_PEB_ON_CTG_PMAX_FULL_NonGaming-Others&utm_id=23236232069&gclsrc=aw.ds&gad_source=1&gad_campaignid=23240536024&gbraid=0AAAAADqf3lG50HJ15PoTGUYHxFGdQI8DA",
+      "invite_link": "https://t.me/+fGxNx2Y2Bi0zOWY0",
+      "image": "permanent.png",
+      "lines": [
+        [
+          "check_green",
+          "All Premiums (16 GCs)"
+        ],
+        [
+          "check_green",
+          "All Exclusive Girls (310+)"
+        ],
+        [
+          "check_green",
+          "DesiCave Chat Circle"
+        ],
+        [
+          "check_green",
+          "Future Content GCs Included"
+        ],
+        [
+          "check_green",
+          "Locations / Socials / Meets"
+        ],
+        [
+          "check_green",
+          "Backup access — no loss"
+        ]
+      ],
+      "days": 30
+    },
+    "desiheaven": {
+      "label": "DESIHEAVEN (13 VIP GCs) £80",
+      "btn": "🏆 DESIHEAVEN (13 ViP GCs) £80",
+      "price": 80,
+      "link": "www.google.com/aclk?sa=L&ai=DChsSEwjo0_GBxvqUAxUJpFAGHeO8MCYYACICCAEQHxoCZGc&co=1&sph=&cce=1&sig=AOD64_2-TtO3s18PJWXNshL2xPf6zrgM1Q&ctype=5&q=&ved=2ahUKEwiE6eyBxvqUAxXlRUEAHairFXUQwg8oAHoECAwQDQ&adurl=",
+      "invite_link": "https://t.me/+yG-4bLuLpH5hMGE0",
+      "image": "desiheaven.jpg",
+      "lines": [
+        [
+          "check_green",
+          "Access to (13 VIPs) & All Girls"
+        ],
+        [
+          "check_green",
+          "27,890+ Photos"
+        ],
+        [
+          "check_green",
+          "230,856+ Videos"
+        ],
+        [
+          "check_green",
+          "Updated regularly"
+        ],
+        [
+          "check_green",
+          "Save & keep everything"
+        ],
+        [
+          "check_green",
+          "Backup access — no loss"
+        ]
+      ],
+      "days": 30
+    },
+    "allgirls": {
+      "label": "🗃️ ALL GIRLS (310+) — £60",
+      "btn": "🗃️ ALL GIRLS (310+) — £60",
+      "price": 60,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjb1vGexvqUAxWMklAGHeKPLUkYACICCAEQJxoCZGc&co=1&sph=&cce=1&sig=AOD64_3e8uv5zS3fE02YJp7rcTv3H9Wkcg&ctype=5&q=&ved=2ahUKEwjIkO2exvqUAxVOWkEAHWbIPIMQwg8oAHoECAsQDQ&adurl=",
+      "invite_link": "https://t.me/+1jwoHurKHmU2MWE0",
+      "image": "allgirls.jpg",
+      "lines": [
+        [
+          "check_green",
+          "310+ Exclusive Girls"
+        ],
+        [
+          "check_green",
+          "19,500+ Photos"
+        ],
+        [
+          "check_green",
+          "57,500+ Videos"
+        ],
+        [
+          "check_green",
+          "Exclusive content only"
+        ],
+        [
+          "check_green",
+          "Updated when new girls drop"
+        ],
+        [
+          "check_green",
+          "Separate girls Available"
+        ]
+      ],
+      "days": 30
+    },
+    "desibaits": {
+      "label": "DESI BAITS VIP — £45",
+      "btn": "🇧🇩🇮🇳🇵🇰 DESI BAITS VIP — £45",
+      "price": 45,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjDxIOqxvqUAxUDmlAGHeZvGu0YACICCAEQFRoCZGc&co=1&sph=&cce=1&sig=AOD64_13jLuKj5x9pejqlCn4y8FnDgbyog&ctype=5&q=&ved=2ahUKEwityv6pxvqUAxUNXUEAHZZxALoQwg8oAHoECAkQEw&adurl=",
+      "invite_link": "https://t.me/+fzkljt_eDF81MGRk",
+      "image": "desibaits.jpg",
+      "lines": [
+        [
+          "check_green",
+          "Largest DesiBaits collection"
+        ],
+        [
+          "check_green",
+          "28,145+ Photos"
+        ],
+        [
+          "check_green",
+          "86,952+ Videos"
+        ],
+        [
+          "check_green",
+          "Updated regularly"
+        ],
+        [
+          "check_green",
+          "Save & keep everything"
+        ],
+        [
+          "check_green",
+          "No recycled content"
+        ]
+      ],
+      "days": 30
+    },
+    "hoejabthots": {
+      "label": "HoeJabThots — £40",
+      "btn": "🧕 HIJABI PREMIUM — £40",
+      "price": 40,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwjDxIOqxvqUAxUDmlAGHeZvGu0YACICCAEQERoCZGc&co=1&sph=&cce=1&sig=AOD64_3Gc175N6vpZVpJEoRb4kJnt5fywQ&ctype=5&q=&ved=2ahUKEwityv6pxvqUAxUNXUEAHZZxALoQwg8oAHoECAkQJQ&adurl=",
+      "invite_link": "https://t.me/+-UPhQVJq030xMWY0",
+      "image": "hoejabthots.jpg",
+      "lines": [
+        [
+          "check_green",
+          "UK Hijabi Collection"
+        ],
+        [
+          "check_green",
+          "Organised Premium"
+        ],
+        [
+          "check_green",
+          "Updated Regularly"
+        ],
+        [
+          "check_green",
+          "Save & Keep Everything"
+        ],
+        [
+          "check_green",
+          "Unseen Content (No Reposts)"
+        ]
+      ],
+      "days": 30
+    },
+    "whitechavs": {
+      "label": "UK CHAVS (ENTRY) — £30",
+      "btn": "🇬🇧 UK CHAVS (ENTRY) — £30",
+      "price": 30,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwi98OCxxoKVAxUmj1AGHZonB7sYACICCAEQHRoCZGc&co=1&sph=&sig=AOD64_30j57D-TdXy3tRj3jMup70l6FBcw&ctype=5&q=&ved=2ahUKEwiD0dmxxoKVAxUkVEEAHTgDJMsQwg8oAHoECAsQHw&adurl=",
+      "invite_link": "https://t.me/+xpZixR3s3aY3NDFk",
+      "image": "ukchavs.png",
+      "lines": [
+        [
+          "check_green",
+          "UK Chav collection"
+        ],
+        [
+          "check_green",
+          "4,200+ Photos"
+        ],
+        [
+          "check_green",
+          "11,800+ Videos"
+        ],
+        [
+          "check_green",
+          "Updated regularly"
+        ],
+        [
+          "check_green",
+          "Save & keep everything"
+        ],
+        [
+          "check_green",
+          "Backup access included"
+        ]
+      ],
+      "days": 30
+    },
+    "allgirls_all": {
+      "label": "🗃️ ALL GIRLS (310+) — £60",
+      "btn": "🗃️ ALL GIRLS (310+) — £60",
+      "price": 60,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwin6vKJ4qKUAxWakVAGHSZKNhcYACICCAEQLRoCZGc&co=1&sph=&cce=1&sig=AOD64_3kMRL0hTctMtcqRV891k7hJcWb8Q&ctype=5&q=&ved=2ahUKEwjo6-2J4qKUAxVAXUEAHfbLHHkQwg8oAHoECAgQDQ&adurl=",
+      "invite_link": "https://t.me/+1jwoHurKHmU2MWE0",
+      "image": "allgirls.jpg",
+      "lines": [
+        [
+          "check_green",
+          "All 310+ Girls"
+        ],
+        [
+          "check_green",
+          "Every VIP Folder"
+        ],
+        [
+          "check_green",
+          "Daily updates"
+        ]
+      ],
+      "days": 30
+    },
+    "allgirls_separate": {
+      "label": "Single Girl VIP — £30",
+      "btn": "👤 Single Girl VIP — £30",
+      "price": 30,
+      "link": "https://www.google.com/aclk?sa=L&ai=DChsSEwiU_NSl4qKUAxWLk1AGHXEHFgAYACICCAEQJRoCZGc&co=1&sph=&cce=1&sig=AOD64_3MZEkYKt0q3LzZ6-uyxqTrG4356Q&ctype=5&q=&ved=2ahUKEwjjsNCl4qKUAxU6QkEAHTS9JkQQwg8oAHoECAoQDQ&adurl=",
+      "invite_link": "https://t.me/m/Uk4mchTTOGJk",
+      "image": "allgirls.jpg",
+      "lines": [
+        [
+          "check_green",
+          "Your selected girl's VIP folder"
+        ],
+        [
+          "check_green",
+          "Full content access"
+        ]
+      ],
+      "days": 30
+    }
+  }
+}

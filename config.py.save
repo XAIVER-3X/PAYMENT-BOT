@@ -1,0 +1,176 @@
+from pathlib import Path
+
+BOT_TOKEN = "8604871158:AAEcr6e1OWrhTctRI7RzojlyuH7650T0Q4w"
+OWNER_ID = 8650066383
+PREVIEW_CHANNEL_ID = -1003893166247
+
+MAX_KEY_ATTEMPTS = 3
+SUPPORT_COOLDOWN_SECONDS = 600
+
+BASE_DIR = Path(__file__).resolve().parent
+DB_PATH = BASE_DIR / "vip_bot.db"
+IMG_DIR = BASE_DIR
+
+IMG_WELCOME = IMG_DIR / "welcome.jpg"
+IMG_MENU = IMG_DIR / "menu.jpg"
+IMG_SUPPORT = IMG_DIR / "vip_support.jpg"
+IMG_START = IMG_DIR / "start_new.jpg"
+
+TIER_IMAGES = {
+    "desiheaven":   IMG_DIR / "desiheaven.jpg",
+    "allgirls":     IMG_DIR / "allgirls.jpg",
+    "desibaits":    IMG_DIR / "desibaits.jpg",
+    "hoejabthots":  IMG_DIR / "hoejabthots.jpg",
+    "whitechavs":   IMG_DIR / "whitechavs.jpg",
+}
+
+CUSTOM_EMOJI = {
+    "adult":           ("5348485489097717994", "🔞"),
+    "check":           ("5913315955294868588", "☑️"),
+    "check_green":     ("5206607081334906820", "✔️"),
+    "pound":           ("5290017777174722330", "💷"),
+    "card":            ("6129870117619634982", "💳"),
+    "new":             ("6269421275878265370", "🆕"),
+    "lock":            ("5348223165380179822", "🔒"),
+    "siren":           ("6257780484281997093", "🚨"),
+    "uz":              ("5449829434334912605", "🇺🇿"),
+    "recycle":         ("5274156304036800055", "🔵"),
+    "uk":              ("5202196682497859879", "🇬🇧"),
+    "diamond":         ("5427168083074628963", "💎"),
+}
+
+STICKER_IDS = {
+    "welcome": "",
+    "verified": "",
+}
+
+TIER_EXPECTED_AMOUNT = {
+    "desiheaven":        70,
+    "allgirls":          50,
+    "desibaits":         35,
+    "hoejabthots":       35,
+    "whitechavs":        25,
+    "allgirls_all":      50,
+    "allgirls_separate": 25,
+}
+
+INVITE_LINKS = {
+    "desiheaven":        "https://t.me/+gIW-zBUsP8YxNmI0",
+    "allgirls":          "https://t.me/+1jwoHurKHmU2MWE0",
+    "desibaits":         "https://t.me/+tXgxEzWoI5UwZWI0",
+    "hoejabthots":       "https://t.me/+WE3u0sGNUR5iMWRk",
+    "whitechavs":        "https://t.me/+XzyOoF9OqLA4NTc8",
+    "allgirls_all":      "https://t.me/+1jwoHurKHmU2MWE0",
+    "allgirls_separate": "https://t.me/m/Uk4mchTTOGJk",
+}
+
+PAY_LINKS = {
+    "80": "https://www.google.com/aclk?sa=L&ai=DChsSEwjcufzkgPqTAxX9mlAGHfpdAw4YACICCAEQHRoCZGc&co=1&sph=&cce=1&sig=AOD64_3LSVJmZ9EcYNIM-A-2utFoZXNY-A&ctype=5&q=&ved=2ahUKEwiXmPfkgPqTAxXUT0EAHTRPCZ4Qwg8oAHoECAoQDQ&adurl=",
+    "60": "https://www.google.com/aclk?sa=L&ai=DChsSEwif_b3TgfqTAxXwlFAGHfdFHNMYACICCAEQKRoCZGc&co=1&sph=&cce=1&sig=AOD64_0rrXmh-pGxMn2T_cAIR8r3PebFtw&ctype=5&q=&ved=2ahUKEwiUzLjTgfqTAxWrXEEAHXm0G7YQwg8oAHoECAkQDQ&adurl=",
+    "40": "https://www.google.com/aclk?sa=L&ai=DChsSEwilgqPhgfqTAxWsm1AGHRWsBSYYACICCAEQHhoCZGc&co=1&sph=&cce=1&sig=AOD64_0sRNBW_eyGEB7ZU4m6_amaLgco3w&ctype=5&q=&ved=2ahUKEwjd1p3hgfqTAxVJV0EAHXL1CuYQwg8oAHoECAoQDQ&adurl=",
+    "30": "https://www.google.com/aclk?sa=L&ai=DChsSEwjHiuXsgfqTAxVsmVAGHZGmABUYACICCAEQHRoCZGc&co=1&sph=&cce=1&sig=AOD64_2H6Y-mK0ejhJZ-UVg2lUGVXcDjVA&ctype=5&q=&ved=2ahUKEwiX6d7sgfqTAxW7TEEAHQWkEZYQwg8oAHoECAgQDQ&adurl=",
+}
+
+GIRLS_ALL_LINK = PAY_LINKS["60"]
+GIRLS_SEPARATE_LINK = PAY_LINKS["30"]
+
+GIRLS_LIST = [
+    "26Hadjar", "AlishaM4", "Eshaa", "Fatima", "Haja",
+    "Hiba", "Laiba Ali", "Leemz", "Lush", "Queen",
+    "Rabaul", "Rakhee", "Reallarii", "Sajida", "Samira",
+    "Sara Iqbal", "Shivani", "Simran", "Tamxbegumx", "Taqdees",
+    "xneeca",
+]
+
+VIP_TIERS = {
+    "desiheaven": {
+        "label":  "DESIHEAVEN (13 VIP GCs) — £70",
+        "btn":    "🏆 DESIHEAVEN (13 ViP GCs) — £70",
+        "link":   PAY_LINKS["70"],
+        "lines": [
+            ("check_green", "Access to ALL VIPs & Girls"),
+            ("check_green", "27,890+ Photos"),
+            ("check_green", "230,856+ Videos"),
+            ("new",         "Updated regularly"),
+            ("check_green", "Save & keep everything"),
+            ("lock",        "Backup access — no loss"),
+        ],
+        "days":   30,
+    },
+    "allgirls": {
+        "label":  "ALL GIRLS (170+) — £50",
+        "btn":    "💎 ALL GIRLS (170+) — £50",
+        "link":   PAY_LINKS["50"],
+        "lines": [
+            ("check_green", "278+ Exclusive Girls"),
+            ("check_green", "19,500+ Photos"),
+            ("check_green", "57,500+ Videos"),
+            ("lock",        "Exclusive content only"),
+            ("new",         "Updated when new girls drop"),
+            ("siren",       "Separate girls Available"),
+        ],
+        "days":   30,
+    },
+    "desibaits": {
+        "label":  "DESI BAITS VIP — £35",
+        "btn":    "🇧🇩🇮🇳🇵🇰 DESI BAITS VIP — £35",
+        "link":   PAY_LINKS["35"],
+        "lines": [
+            ("check_green", "Largest DesiBaits collection"),
+            ("check_green", "28,145+ Photos"),
+            ("check_green", "86,952+ Videos"),
+            ("new",         "Updated regularly"),
+            ("lock",        "Save & keep everything"),
+            ("check_green", "No recycled content"),
+        ],
+        "days":   30,
+    },
+    "hoejabthots": {
+        "label":  "HoeJabThots — £35",
+        "btn":    "🧕 HIJABI PREMIUM — £35",
+        "link":   PAY_LINKS["35"],
+        "lines": [
+            ("uk",          "UK Hijabi Collection"),
+            ("check_green", "Organised Premium"),
+            ("new",         "Updated Regularly"),
+            ("lock",        "Save & Keep Everything"),
+            ("diamond",     "Unseen Content (No Reposts)"),
+        ],
+        "days":   30,
+    },
+    "whitechavs": {
+        "label":  "UK CHAVS (ENTRY) — £25",
+        "btn":    "🇬🇧 UK CHAVS (ENTRY) — £25",
+        "link":   PAY_LINKS["25"],
+        "lines": [
+            ("uk",          "UK Chav collection"),
+            ("check_green", "4,200+ Photos"),
+            ("check_green", "11,800+ Videos"),
+            ("new",         "Updated regularly"),
+            ("lock",        "Save & keep everything"),
+            ("check_green", "Backup access included"),
+        ],
+        "days":   30,
+    },
+    "allgirls_all": {
+        "label":  "All Girls Full Package — £50",
+        "btn":    "💠 All Girls Full — £50",
+        "link":   PAY_LINKS["50"],
+        "lines": [
+            ("check_green", "All 21+ Girls"),
+            ("check_green", "Every VIP Folder"),
+            ("new",         "Daily updates"),
+        ],
+        "days":   30,
+    },
+    "allgirls_separate": {
+        "label":  "Single Girl VIP — £25",
+        "btn":    "👤 Single Girl VIP — £25",
+        "link":   GIRLS_SEPARATE_LINK,
+        "lines": [
+            ("check_green", "Your selected girl's VIP folder"),
+            ("check_green", "Full content access"),
+        ],
+        "days":   30,
+    },
+}

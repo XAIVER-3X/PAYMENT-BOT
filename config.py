@@ -6,7 +6,7 @@ from dotenv import load_dotenv
 load_dotenv(override=True)
 
 BASE_DIR = Path(__file__).resolve().parent
-DB_PATH = BASE_DIR / "vip_bot.db"
+DB_PATH = Path("/app/data/vip_bot.db")
 IMG_DIR = BASE_DIR
 
 CONFIG_JSON_PATH = BASE_DIR / "config.json"

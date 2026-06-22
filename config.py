@@ -1,4 +1,4 @@
-﻿import os
+import os
 import json
 from pathlib import Path
 from dotenv import load_dotenv
@@ -134,7 +134,7 @@ if not VIP_TIERS:
         },
         "desiheaven": {
             "label":  "DESIHEAVEN (13 VIP GCs) — £80",
-            "btn":    "ðŸ† DESIHEAVEN (13 ViP GCs) — £80",
+            "btn":    "🏆 DESIHEAVEN (13 ViP GCs) — £80",
             "link":   PAY_LINKS["80"],
             "lines": [
                 ("check_green", "Access to ALL VIPs & Girls"),
@@ -235,8 +235,8 @@ if EMOJI_JSON_PATH.exists():
 
 default_emojis = {
     "adult":           ("5348485489097717994", "🔞"),
-    "check":           ("5913315955294868588", "☑ï¸"),
-    "check_green":     ("5206607081334906820", "✔ï¸"),
+    "check":           ("5913315955294868588", "☑️"),
+    "check_green":     ("5206607081334906820", "✔️"),
     "pound":           ("5290017777174722330", "💷"),
     "card":            ("6129870117619634982", "💳"),
     "new":             ("6269421275878265370", "🆕"),
@@ -246,20 +246,20 @@ default_emojis = {
     "recycle":         ("5274156304036800055", "🔵"),
     "uk":              ("5202196682497859879", "🇬🇧"),
     "diamond":         ("5427168083074628963", "💎"),
-    "warn":            ("4958534696645428119", "‼ï¸"),
-    "box_dot":   ("5913344229064577598", "☑ï¸"),
+    "warn":            ("4958534696645428119", "‼️"),
+    "box_dot":   ("5913344229064577598", "☑️"),
     "users_i":   ("5350778980158956492", "👥"),
     "money_i":   ("6001434068435079689", "💰"),
     "pkg_i":     ("6030474915008745842", "📦"),
-    "trophy_i":  ("5458612419116933783", "ðŸ†"),
+    "trophy_i":  ("5458612419116933783", "🏆"),
     "trend_i":   ("5244837092042750681", "📈"),
     "id_i":      ("6323600780783781848", "🆔"),
     "msg_i":     ("5472239203590888751", "📩"),
     "online":    ("5215670591905869044", "🟢"),
     "bell":      ("5451927229506268442", "🔔"),
-    "star":      ("5368324170671202286", "â­"),
+    "star":      ("5368324170671202286", "⭐"),
     "link":      ("5440539497383087970", "🔗"),
-    "gift":      ("5445284737759586608", "ðŸŽ"),
+    "gift":      ("5445284737759586608", "🎁"),
     "broadcast": ("5472164874456408254", "📢"),
     "admin":     ("5215561933736808510", "🔧"),
     "profile":   ("5372981976804366741", "👤"),
@@ -270,8 +270,8 @@ default_emojis = {
     "crown":     ("5217822164362739968", "👑"),
     "fire":      ("5472423702501006989", "🔥"),
     "ticket":    ("5418010521309815154", "🎫"),
-    "pencil":    ("5395444784611480792", "âœï¸"),
-    "globe":     ("5395558210402807000", "ðŸŒ"),
+    "pencil":    ("5395444784611480792", "✏️"),
+    "globe":     ("5395558210402807000", "🌐"),
 }
 
 for k, v in default_emojis.items():
@@ -297,25 +297,25 @@ BTN_IVE_PAID = "✅  I've Paid — Verify"
 BTN_SHOW_SEPARATE = "👑  Show Separate Options"
 BTN_BACK = "◂  Back"
 BTN_BACK_TO_PLANS = "◂  Back to Plans"
-BTN_BUY_SEPARATE = "ðŸ›ï¸  Buy Separate — £25"
+BTN_BUY_SEPARATE = "🛍️  Buy Separate — £25"
 BTN_BUY_ALL = "💠  Buy All — £50"
-BTN_REDEEM_COMMISSION = "ðŸŽ  Redeem Commission"
-BTN_TOP_REFERRERS = "ðŸ†  Top Referrers"
+BTN_REDEEM_COMMISSION = "🎁  Redeem Commission"
+BTN_TOP_REFERRERS = "🏆  Top Referrers"
 BTN_CLOSE_CHAT = "🔒  Close Chat"
 BTN_CLOSE_SESSION = "🔒  Close Session"
 BTN_CANCEL = "✖  Cancel"
 BTN_ACCEPT = "✅  Accept"
-BTN_REJECT = "âŒ  Reject"
+BTN_REJECT = "❌  Reject"
 BTN_REPLY = "💬  Reply"
 BTN_CLOSE = "🔒  Close"
 BTN_STATS = "📊  STATS"
 BTN_ANALYTICS = "📈  ANALYTICS"
 BTN_PAID_USERS = "💰  PAID USERS"
-BTN_LEADERBOARD = "ðŸ†  LEADERBOARD"
+BTN_LEADERBOARD = "🏆  LEADERBOARD"
 BTN_BLOCK_USER = "🚫  BLOCK USER"
 BTN_UNBLOCK_USER = "✅  UNBLOCK USER"
 BTN_OPEN_TICKETS = "🎫  OPEN TICKETS"
-BTN_GIVE_VIP = "ðŸŽ  GIVE VIP"
+BTN_GIVE_VIP = "🎁  GIVE VIP"
 BTN_MANAGE_USERS = "👥  MANAGE USERS"
 BTN_BROADCAST = "📢  BROADCAST"
 BTN_SET_CHANNELS = "📡  SET CHANNELS"
@@ -370,10 +370,10 @@ MSG_ADMIN_PENDING_PAY = "Pending Pay."
 MSG_ADMIN_OPEN_TICKETS = "Open Tickets"
 MSG_ADMIN_SELECT_ACTION = "Select an action ↓"
 
-MSG_ACCOUNT_RESTRICTED_HEADER = "â”â”â”â” ACCOUNT RESTRICTED â”â”â”â”"
+MSG_ACCOUNT_RESTRICTED_HEADER = "━━━━ ACCOUNT RESTRICTED ━━━━"
 MSG_ACCOUNT_RESTRICTED_BODY = "Your account has been flagged due to too many invalid key submissions.\n\n📩 Contact support below to resolve this."
-MSG_SESSION_CANCELLED = "⚠ï¸ Session cancelled. Use /start to start over."
-MSG_VERIFY_TEXT_ONLY = "âŒ Please send your voucher code as a text message."
+MSG_SESSION_CANCELLED = "⚠️ Session cancelled. Use /start to start over."
+MSG_VERIFY_TEXT_ONLY = "❌ Please send your voucher code as a text message."
 
 
 
